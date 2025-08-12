@@ -458,7 +458,7 @@ footer {
 .rap-con-efi-cajas-box {
         min-height: auto;
         height: auto;
-        padding-bottom: 120px; /* espacio extra para footer */
+        padding-bottom: 120px; 
 }
 
 .h2-titulo-section-2 {
@@ -469,7 +469,7 @@ footer {
 }
 
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 2000px) {
 .rap-con-efi-cajas-box {
     flex: 1 1 48%; 
     max-width: 48%;
@@ -481,15 +481,25 @@ footer {
     font-size: 1.6rem;
     margin-bottom: 2.5rem;
 }
+.dueños-opinion-cajas-box {
+    flex: 1 1 300px;            
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    min-width: 280px; 
+}
+
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
 .rap-con-efi-cajas-box {
     flex: 1 1 320px; 
     max-width: 360px;
     height: 280px;
     padding: 32px;
+    max-height: auto;
 }
 
 .h2-titulo-section-2 {
