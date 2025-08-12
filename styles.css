@@ -388,9 +388,6 @@ footer {
     height: auto;
     flex-wrap: wrap;
     gap: 0.75rem;
-}
-
-.header-container {
     justify-content: space-between;
 }
 
@@ -410,37 +407,6 @@ footer {
 }
 
 
-.hamburger {
-    display: block;
-    cursor: pointer;
-    width: 28px;
-    height: 22px;
-    position: relative;
-}
-
-.hamburger span {
-    background: #1d1e20;
-    display: block;
-    height: 3px;
-    border-radius: 2px;
-    position: absolute;
-    width: 100%;
-    transition: 0.3s ease;
-}
-
-.hamburger span:nth-child(1) {
-    top: 0;
-}
-
-.hamburger span:nth-child(2) {
-    top: 9px;
-}
-
-.hamburger span:nth-child(3) {
-    bottom: 0;
-}
-
-
 .header-right {
     width: 100%;
     justify-content: flex-start;
@@ -448,14 +414,6 @@ footer {
     padding-bottom: 0.5rem;
 }
 }
-
-
-@media (min-width: 768px) {
-.hamburger {
-    display: none;
-}
-}
-
 
 @media (min-width: 768px) {
 .dueños-opinion-cajas {
